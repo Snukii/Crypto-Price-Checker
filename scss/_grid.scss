@@ -1,0 +1,18 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 0.5fr;
+    grid-template-rows: 1fr 0.5fr 1fr 1.5fr;
+    grid-template-areas: ". . ."". Display ."". Symbols ."". . .";
+}
+
+.Display {
+    grid-area: Display;
+    display: inline-grid;
+    justify-items: center;
+}
+
+.Symbols {
+    grid-area: Symbols;
+    display: inline-grid;
+    justify-items: center;
+}
