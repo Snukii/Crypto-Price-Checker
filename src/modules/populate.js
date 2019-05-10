@@ -14,7 +14,9 @@ class Populate {
         for (let i = 0; i < options.length; i++) {
             let opt = options[i];
             let el = document.createElement("option");
-            el.textContent = opt;
+            let opt2 = opt.slice(0, -3) + '-' + opt.slice(-3);
+            console.log(opt2);
+            el.textContent = opt2;
             el.value = opt;
             select.appendChild(el);
         }

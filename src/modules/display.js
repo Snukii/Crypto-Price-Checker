@@ -20,7 +20,7 @@ class Display {
 
             document.querySelector('.timestamp').innerHTML = `Checked at: ${data.display_timestamp}`;
         } else {
-            document.querySelector('.crypto').innerHTML = "An error happened, try another pair";
+            document.querySelector('.crypto').innerHTML = "Currently not available, try another pair.";
         }
 
     }
