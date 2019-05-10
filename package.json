@@ -1,0 +1,28 @@
+{
+  "name": "crypto-price-checker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "babel-loader": "^8.0.5"
+  },
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Snukii/Crypto-Price-Checker.git"
+  },
+  "author": "Marcus Rasmussen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Snukii/Crypto-Price-Checker/issues"
+  },
+  "homepage": "https://github.com/Snukii/Crypto-Price-Checker#readme"
+}
